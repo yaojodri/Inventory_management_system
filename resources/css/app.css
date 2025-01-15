@@ -1,0 +1,98 @@
+/* resources/css/app.css */
+
+/* Custom Styles */
+.bg-custom-primary {
+    background-color: #007bff; /* Custom primary color */
+}
+
+.btn-custom-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+    color: #fff;
+}
+
+.btn-custom-primary:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+}
+
+.btn-custom-secondary {
+    background-color: #6c757d;
+    border-color: #6c757d;
+    color: #fff;
+}
+
+.btn-custom-secondary:hover {
+    background-color: #5a6268;
+    border-color: #545b62;
+}
+
+.text-white {
+    color: #fff !important;
+}
+
+.jumbotron {
+    padding: 2rem 2rem;
+    border-radius: 0.5rem;
+}
+
+@media (max-width: 767.98px) {
+    .jumbotron {
+        padding: 1rem 1rem;
+    }
+}
+
+.sidebar {
+    height: 100vh;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 200px;
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-right: 1px solid #dee2e6;
+    transition: transform 0.3s ease;
+}
+.sidebar.closed {
+    transform: translateX(-100%);
+}
+.sidebar a {
+    display: block;
+    margin: 10px 0;
+    color: #333;
+    text-decoration: none;
+}
+.sidebar a:hover {
+    background-color: #994747;
+    padding-left: 10px;
+}
+.main-content {
+    margin-left: 220px;
+    padding: 20px;
+    transition: margin-left 0.3s ease;
+}
+.main-content.full-width {
+    margin-left: 20px;
+}
+.toggle-btn {
+    position: fixed;
+    left: 200px;
+    top: 10px;
+    cursor: pointer;
+    z-index: 1000;
+    
+}
+.toggle-btn.closed {
+    left: 10px;
+}
+
+
+#toggle-btn {
+    color: #f8f9fa;
+    
+    padding: 5px 10px;
+    cursor: pointer;
+    border: none;
+    outline: none; /* Removes focus highlight */
+    box-shadow: none; /* Ensures no shadow appears */
+}
