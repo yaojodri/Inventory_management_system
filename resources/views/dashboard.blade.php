@@ -46,9 +46,9 @@
         <!-- Main Content -->
         <div class="col-md-10 offset-md-2 main-content" id="main-content">
 
-            <!-- Jumbotron / Welcome Section -->
+            <!-- Welcome Section -->
             <div class="jumbotron text-center">
-                <h1>Welcome, {{ Auth::user()->fullname }}</h1>
+                <h1>Welcome, {{ Auth::user()->name }}</h1>
                 <p class="lead">Manage your inventory and reports</p>
             </div>
 
