@@ -42,7 +42,7 @@
             {{ $user->name }}
         </div>
         <div class="card-body">
-            <p><strong>Full Name:</strong> {{ $user->name }}</p>
+            <p><strong>Name:</strong> {{ $user->name }}</p>
             <p><strong>Email:</strong> {{ $user->email }}</p>
             <p><strong>Role:</strong> {{ $user->role }}</p>
             <p><strong>Created At:</strong> {{ $user->created_at->format('d M Y') }}</p>
