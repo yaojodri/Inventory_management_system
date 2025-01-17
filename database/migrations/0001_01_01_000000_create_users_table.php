@@ -14,7 +14,7 @@ return new class extends Migration
         // Create the 'users' table with 'role' and 'fullname' from the first migration
         Schema::create('users', function (Blueprint $table) {
             $table->id();
-            $table->string('fullname'); // Adding fullname as per the first migration
+            $table->string('name'); // Adding fullname as per the first migration
             $table->string('email')->unique();
             $table->timestamp('email_verified_at')->nullable();
             $table->string('password');

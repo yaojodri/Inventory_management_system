@@ -9,7 +9,7 @@ class RemoveNullableFromFullnameInUsersTable extends Migration
     {
         Schema::table('users', function (Blueprint $table) {
             // Remove nullable from the 'fullname' column
-            $table->string('fullname')->nullable(false)->change();
+            $table->string('name')->nullable(false)->change();
         });
     }
 
@@ -17,7 +17,7 @@ class RemoveNullableFromFullnameInUsersTable extends Migration
     {
         Schema::table('users', function (Blueprint $table) {
             // Re-add nullable to the 'fullname' column
-            $table->string('fullname')->nullable()->change();
+            $table->string('name')->nullable()->change();
         });
     }
 }
