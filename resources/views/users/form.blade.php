@@ -46,7 +46,7 @@
 
     <div class="row g-3">
         <div class="col">
-            <x-textfield name="fullname" label="FullName" type="text" placeholder="Enter User name" :value="old('fullname', $user->name ?? '')" />
+            <x-textfield name="name" label="Name" type="text" placeholder="Enter User name" :value="old('name', $user->name ?? '')" />
         </div>
     </div>
     <div class="row g-3">
