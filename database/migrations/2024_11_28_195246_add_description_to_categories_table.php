@@ -9,21 +9,21 @@ return new class extends Migration
     /**
      * Run the migrations.
      */
-    public function up(): void
-    {
-        Schema::table('categories', function (Blueprint $table) {
-            //
-            $table->string('description');
-        });
-    }
+    // public function up(): void
+    // {
+    //     Schema::table('categories', function (Blueprint $table) {
+    //         //
+    //         $table->string('description');
+    //     });
+    // }
 
-    /**
-     * Reverse the migrations.
-     */
-    public function down(): void
-    {
-        Schema::table('categories', function (Blueprint $table) {
-            //
-        });
-    }
+    // /**
+    //  * Reverse the migrations.
+    //  */
+    // public function down(): void
+    // {
+    //     Schema::table('categories', function (Blueprint $table) {
+    //         //
+    //     });
+    // }
 };
