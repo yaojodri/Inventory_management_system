@@ -23,6 +23,22 @@ class RegisterController extends Controller
 
     use RegistersUsers;
 
+    // /**
+    //  * Determine where to redirect users after registration.
+    //  *
+    //  * @return string
+    //  */
+    // protected function redirectTo()
+    // {
+    //     // You can add custom logic here to determine the redirect
+    //     if (auth()->user()->isAdmin()) {
+    //         // Redirect admin users to the admin dashboard
+    //         return 'register';
+    //     }
+
+    //     // Redirect normal users to their dashboard
+    //     return '/register';
+    // }
     /**
      * Where to redirect users after registration.
      *

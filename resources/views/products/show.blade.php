@@ -66,7 +66,7 @@
             </div>
             <div class="col-md-6">
                 <h5>Price:</h5>
-                <p>${{ number_format($product->price, 2) }}</p>
+                <p>GH₵.{{ number_format($product->price, 2) }}</p>
             </div>
         </div>
 
